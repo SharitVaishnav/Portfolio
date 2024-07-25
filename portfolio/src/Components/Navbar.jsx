@@ -23,7 +23,7 @@ const Navbar = () => {
       <ol className='flex flex-col text-head text-sm gap-7 marker:text-green-300 font-mono items-center animate-menuOl'>
           <li onClick={()=>clickHandeler()}><span className='text-blue1'>1. </span><a href="/#" className=''> Home</a></li>
           <li onClick={()=>clickHandeler()}><span className='text-blue1'>2. </span><a href = "#about"> About Me</a></li>
-          <li onClick={()=>clickHandeler()}><span className='text-blue1'>3. </span> <a href='#project'>Projects</a></li>
+          <li onClick={()=>clickHandeler()}><span className='text-blue1'>3. </span> <a href='#projects'>Projects</a></li>
           <li onClick={()=>clickHandeler()}><span className='text-blue1'>4. </span> <a href = "#contact">Contact</a></li>
           <li><button className='text-blue1 text-sm border border-blue1 px-3 font-fontHeading py-2 rounded-md tracking-widest hover:-translate-x-1 hover:-translate-y-1 transition-transform duration-300'><a href="Sharit's Resume.pdf">Resume</a></button></li>
         </ol>
@@ -41,7 +41,7 @@ const Navbar = () => {
         <ol className='flex text-head text-sm gap-7 marker:text-green-300 font-fontParagraph items-center max-[640px]:hidden'>
           <li><span className='text-blue1'>1. </span><a href="/#"> Home</a></li>
           <li><span className='text-blue1'>2. </span><a href = "#about"> About Me</a></li>
-          <li><span className='text-blue1'>3. </span> <a href='#project'>Projects</a></li>
+          <li><span className='text-blue1'>3. </span> <a href='#projects'>Projects</a></li>
           <li><span className='text-blue1'>4. </span> <a href = "#contact">Contact</a></li>
         </ol>
         <button className='text-blue1 text-sm border border-blue1 px-3 font-fontHeading py-2 rounded-md hover:-translate-x-1 hover:-translate-y-1 transition-transform duration-300'><a href="Sharit's Resume.pdf">Resume</a></button>
