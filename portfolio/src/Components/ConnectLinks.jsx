@@ -24,9 +24,7 @@ const ConnectLinks = () => {
         <a href="https://leetcode.com/u/Sharit_Vaishnav/"><SiLeetcode className='text-2xl text-slate-400 hover:text-blue1 hover:animate-bounce'/></a>
         <a href="https://www.codechef.com/users/sharit2846"><SiCodechef className='text-2xl text-slate-400 hover:text-blue1 hover:animate-bounce'/></a>
     </div>
-    <div className='flex w-full justify-center items-center absolute bottom-0 mb-5'>
-      <p className='text-sm text-slate-400 font-mono text-center hover:text-blue1'>Designed by Brittany Chiang & Built by Sharit Vaishnav</p>
-    </div>
+    
 </>
 
   )
