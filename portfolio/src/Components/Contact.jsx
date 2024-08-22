@@ -20,7 +20,7 @@ const Contact = () => {
             to innovative endeavors. Let's connect and create something amazing together!</p>
             <br />
             <div className=' h-12 w-[138px] rounded-md  relative z-0'>
-            <button className='text-blue1 text-base border border-blue1 px-6 font-fontHeading py-3 rounded-md tracking-widest hover:-translate-x-1 hover:-translate-y-1 transition-transform duration-300 absolute z-10'><a href="gopala2846@gmail.com">Say Hello</a></button>
+            <button className='text-blue1 text-base border border-blue1 px-6 font-fontHeading py-3 rounded-md tracking-widest hover:-translate-x-1 hover:-translate-y-1 transition-transform duration-300 absolute z-10'><a href="mailto:gopala2846@gmail.com">Say Hello</a></button>
             </div>
         </div>
       </div>
